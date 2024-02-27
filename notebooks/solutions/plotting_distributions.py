@@ -7,7 +7,7 @@ def calculate_mean_of_random_iterations(distribution, n_random=10000):
     return random_values.mean()
 
 distributions = dict([("normal", stats.norm()),
-                 ("gamma", stats.gamma(0.5)),
+                 ("cosine", stats.cosine(0.5)),
                  ("uniform", stats.uniform(0, 1))
                 ])
 
